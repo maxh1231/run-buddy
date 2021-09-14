@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +66,7 @@ header {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 10px;
     
   }
 
@@ -234,7 +241,7 @@ header {
     border-bottom: none;
   }
 
-  
+
   .step h3 {
     color: #024e76;
     font-size: 46px;
